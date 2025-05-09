@@ -1,0 +1,75 @@
+.order-container {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .order-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .order-container p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .order-container label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .order-container input,
+  .order-container select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .order-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-container button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .order-container button:hover:not(:disabled) {
+    background-color: #218838;
+  }
+  
+  .status-message {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 4px;
+  }
+  
