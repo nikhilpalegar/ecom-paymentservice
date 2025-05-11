@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:docker": "eval $(minikube docker-env) && docker build -t payment-service:latest . && minikube image push payment-service:latest"
   },
   "keywords": [],
   "author": "",
